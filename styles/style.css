@@ -1,1 +1,38 @@
-/* место для вашего кода */
+.header {
+  display: grid;
+  grid-template-columns: 1fr 148px 1fr;
+  align-items: center;
+  padding: 92px 50px;
+}
+
+.header__menu {
+  justify-self: start;
+}
+
+.header__logo {
+  width: 148px;
+}
+
+.header__address {
+  justify-self: end;
+  max-width: 240px;
+  font-size: 18px;
+  line-height: 1.35;
+}
+
+.header__links {
+  display: flex;
+  gap: 32px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.header__link {
+  font-size: 18px;
+  line-height: 1.2;
+}
+
+.header__link_active {
+  text-decoration: none;
+}
