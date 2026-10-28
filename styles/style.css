@@ -9,23 +9,13 @@
   justify-self: start;
 }
 
-.header__logo {
-  width: 148px;
-}
-
-.header__address {
-  justify-self: end;
-  max-width: 240px;
-  font-size: 18px;
-  line-height: 1.35;
-}
-
 .header__links {
   display: flex;
+  flex-wrap: wrap;
   gap: 32px;
   padding: 0;
   margin: 0;
-  list-style: none;
+  list-style: circle;
 }
 
 .header__link {
@@ -35,4 +25,24 @@
 
 .header__link_active {
   text-decoration: none;
+}
+
+.header__logo {
+  display: block;
+  width: 148px;
+}
+
+.header__logo img {
+  display: block;
+  width: 100%;
+}
+
+.header__address {
+  display: flex;
+  flex-direction: column;
+  justify-self: end;
+  max-width: 240px;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 1.35;
 }
