@@ -215,3 +215,56 @@
   font-size: 20px;
   line-height: 1.4;
 }
+
+
+/* Подвал сайта */
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: start;
+  gap: 25px;
+  padding: 60px 50px 90px;
+}
+
+.footer__menu {
+  justify-self: start;
+}
+
+.footer__links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.footer__link {
+  font-size: 18px;
+}
+
+.footer__address {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  max-width: 240px;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 1.35;
+}
+
+.footer__socials {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.footer__socials a {
+  font-size: 16px;
+}
