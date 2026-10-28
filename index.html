@@ -9,19 +9,41 @@
   </head>
   <body>
     <header class="header">
-      <!-- Шапка сайта -->
+      <nav class="header__menu">
+        <ul class="header__links">
+          <li>
+            <a class="header__link header__link_active" href="#top">Главная</a>
+          </li>
+          <li>
+            <a class="header__link" href="#lots">Лоты</a>
+          </li>
+          <li>
+            <a class="header__link" href="#about">Об аукционе</a>
+          </li>
+        </ul>
+      </nav>
+
+      <a class="header__logo" href="#top" aria-label="На главную">
+        <img src="./images/logo.svg" alt="Логотип Оно тебе надо">
+      </a>
+
+      <address class="header__address">
+        <a href="tel:+99995555555">+9 999 555 5555</a>
+        <a href="mailto:info@ono-tebe-nado.ru">info@ono-tebe-nado.ru</a>
+        <p>наб. Принсенграхт 263-265, Амстердам</p>
+      </address>
     </header>
 
     <main>
-      <section class="cover">
+      <section class="cover" id="top">
         <!-- Главный экран -->
       </section>
 
-      <section class="lots">
+      <section class="lots" id="lots">
         <!-- Лоты аукциона -->
       </section>
 
-      <section class="about">
+      <section class="about" id="about">
         <!-- Об аукционе -->
       </section>
     </main>
